@@ -34,6 +34,9 @@ gem 'devise'
 # For pin uploads
 gem 'paperclip'
 
+# Amazon web services
+gem 'aws-sdk'
+
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
