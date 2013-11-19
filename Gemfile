@@ -41,6 +41,12 @@ gem 'aws-sdk'
 # For making collages
 gem 'masonry-rails'
 
+# Pagination library
+gem 'will_paginate'
+
+# Twitter bootstrap pagination
+gem 'will_paginate-bootstrap'
+
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
